@@ -1,0 +1,161 @@
+.surface{
+    position: relative;
+    width: 306px;
+    height: 256px;
+    top: 48px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+    .shipto{
+        position: absolute;
+        width: 132px;
+        height: 32px;
+        top: 28px;
+        left: 24px;
+        color: #999999;
+        font-family: Roboto-Regular;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .leadtime{
+        position: absolute;
+        width: 118px;
+        height: 16px;
+        top: 72px;
+        left: 24px;
+        color: #999999;
+        font-family: Roboto-Regular;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .shippingtime{
+        position: absolute;
+        width: 152px;
+        height: 16px;
+        top: 100px;
+        left: 24px;
+        color: #999999;
+        font-family: Roboto-Regular;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .info1{
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 73px;
+        left: 154px;
+    }
+
+    .info2{
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 101px;
+        left: 187px;
+    }
+
+    .loginbtn{
+        position: absolute;
+        width: 258px;
+        height: 40px;
+        top: 140px;
+        left: 24px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 20px;
+        background-color: #FF6600;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .loginbtn:hover{
+        -webkit-transition: all .35s ease;
+        transition: all .35s ease;
+           
+    }
+
+    .login{
+        position: absolute;
+        width: 210px;
+        height: 20px;
+        top: 10px;
+        left: 24px;
+        color: #FFFFFF;
+        font-family: Roboto-Medium;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        width: 210px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .contactbtn{
+        position: absolute;
+        width: 258px;
+        height: 40px;
+        top: 192px;
+        left: 24px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #FF6600;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    
+
+    .mail{
+        position: absolute;
+        width: 14px;
+        height: 12px;
+        top: 14px;
+        left: 36px;
+    }
+
+    .contact{
+        position: absolute;
+        width: 128px;
+        height: 20px;
+        top: 10px;
+        left: 62px;
+        color: #FF6600;
+        font-family: Roboto-Medium;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+   
+
+    .totalZAR{
+        position: absolute;
+        width: 78px;
+        height: 24px;
+        top: 24px;
+        left: 204px;
+        color: #333333;
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        
+    }
