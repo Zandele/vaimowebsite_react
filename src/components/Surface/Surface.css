@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .surface{
     position: relative;
     width: 306px;
@@ -158,4 +164,171 @@
         line-height: 24px;
         text-align: right;
         
+    }
+
+
+
+
+
+
+
+
+
+    @media (max-width: 360px){
+        .surface{
+            position: relative;
+            width: 336px;
+            height: 256px;
+            top: 952px;
+            left: 12px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 8px;
+            background-color: #FFFFFF;
+            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+            margin: auto;
+        }
+        
+        .shipto{
+            position: absolute;
+            width: 145px;
+            height: 32px;
+            top: 28px;
+            left: 26px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+        }
+        
+        .leadtime{
+            position: absolute;
+            width: 130px;
+            height: 16px;
+            top: 72px;
+            left: 26px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+        }
+        
+        .shippingtime{
+            position: absolute;
+            width: 167px;
+            height: 16px;
+            top: 100px;
+            left: 26px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+        }
+        
+        .info1{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            top: 73px;
+            left: 169px;
+        }
+        
+        .info2{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            top: 101px;
+            left: 205px;
+        }
+        
+        .loginbtn{
+            position: absolute;
+            width: 284px;
+            height: 40px;
+            top: 140px;
+            left: 26px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 20px;
+            background-color: #FF6600;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .loginbtn:hover{
+            -webkit-transition: all .35s ease;
+            transition: all .35s ease;
+               
+        }
+        
+        .login{
+            position: absolute;
+            width: 236px;
+            height: 20px;
+            top: 10px;
+            left: 24px;
+            color: #FFFFFF;
+            font-family: Roboto-Medium;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .contactbtn{
+            position: absolute;
+            width: 284px;
+            height: 40px;
+            top: 192px;
+            left: 26px;
+            background-color: rgba(255, 255, 255, 0);
+            border: 1px solid #FF6600;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0);
+            cursor: pointer;
+        }
+        
+        .mail{
+            position: absolute;
+            width: 14px;
+            height: 12px;
+            top: 14px;
+            left: 47px;
+        }
+        
+        .contact{
+            position: absolute;
+            width: 128px;
+            height: 20px;
+            top: 10px;
+            left: 73px;
+            color: #FF6600;
+            font-family: Roboto-Medium;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .totalZAR{
+            position: absolute;
+            width: 86px;
+            height: 24px;
+            top: 24px;
+            left: 224px;
+            color: #333333;
+            font-family: Roboto-Bold;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            border: none;
+        }
     }

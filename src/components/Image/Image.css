@@ -4,4 +4,13 @@
     width: 416px;
     margin-left: 72px;
     margin-top: 48px;
+    margin: auto;
+}
+@media (max-width: 360px){
+    .img{
+        position: absolute;
+        height: 360px;
+        width: 360px;
+        margin: auto;
+    }
 }

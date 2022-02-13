@@ -5,7 +5,10 @@
     height: 544px;
     left: 0px;
     top: 48px;
+    margin: auto;
 }
+
+
 
 .ready{
     position: relative;
@@ -25,7 +28,7 @@
     text-align: left;
     top: 0px;
     padding: 2px 8px;
-
+    margin: auto;
 }
 
 .notready{
@@ -368,6 +371,14 @@
         text-align: left;
     }
 
+
+    @media (max-width: 360px){
+        .ontime{
+            display: none;
+        }
+    }
+
+
     .ontime{
         position: absolute;
         width: 186px;
@@ -380,6 +391,7 @@
         font-size: 14px;
         line-height: 16px;
         text-align: left;
+        
     }
 
     .arrow1{
@@ -465,6 +477,12 @@
         left: 0px;
     }
 
+@media (max-width: 360px){
+    .options{
+        display: none;
+    }
+}
+
     .options{
         position: absolute;
         width: 112px;
@@ -510,7 +528,7 @@
         text-align: left;
     }
 
-    .minusbtn1:enabled{
+    .minusbtn1{
         position: absolute;
         width: 40px;
         height: 40px;
@@ -532,7 +550,7 @@
         
     }
 
-    .minusbtn1:disabled{
+    .minusbtn1{
         position: absolute;
         width: 40px;
         height: 40px;
@@ -944,3 +962,894 @@
     }
 
 
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 360px){
+        .infobox_component{
+            position: absolute;
+            width: 360px;
+            height: 568px;
+            left: 12px;
+            top: 372px;
+        }
+        
+        .ready{
+            position: relative;
+            background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+            border-radius: 2px 0 0 2px;
+            width: 74px;
+            height: 16px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 2px 0 0 2px;
+            width: 90px;
+            height: 20px;
+            color: #FFFFFF;
+            font-family: Roboto-Medium;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            top: 0px;
+            padding: 2px 8px;
+            left: 0px;
+        }
+        
+        .notready{
+            position: relative;
+            background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+            border-radius: 2px 0 0 2px;
+            width: 74px;
+            height: 16px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 2px 0 0 2px;
+            width: 90px;
+            height: 20px;
+            color: #FFFFFF;
+            font-family: Roboto-Medium;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            top: 0px;
+            left: 0px;
+            padding: 2px 8px;
+        }
+        
+        .instock{
+            background-color: rgba(255, 255, 255, 0);
+            width: 43px;
+            height: 16px;
+            background-color: #FFF0E6;
+            padding: 2px 4px 2px 8px;
+            color: #FF6600;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            left: 0px;
+            position: relative;
+        }
+        
+        .check1{
+            position: relative;
+            height: 12px;
+            width: 12px;
+            background-color: #FFF0E6;
+            left: 0px;
+            margin-top: 0px;
+            top: 2px;
+            
+        }
+        
+        .fast{
+            background-color: rgba(255, 255, 255, 0);
+            width: 74px;
+            height: 16px;
+            background-color: #FFF0E6;
+            border-radius: 0 2px 2px 0;
+            padding: 2px 4px 2px 8px;
+            color: #FF6600;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            left: 0px;
+            position: relative;
+        }
+        
+        .hotselling{
+            width: 336px;
+            height: 72px;
+            top: 28px;
+            position: absolute;
+            color: #333333;
+            font-family: Roboto-Regular;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            margin-left: 0px;
+            left: 0px;
+        }
+        
+        .hotbox{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 2px;
+            width: 111px;
+            height: 20px;
+            background-color: #EDF0F3;
+            border-radius: 2px;
+            width: 111px;
+            height: 20px;
+            top: 48px;
+            left: 225px;
+        }
+        
+        .hotsale{
+            position: absolute;
+            width: 95px;
+            height: 16px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            top: 2px;
+            left: 8px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+        
+        .ratingbox{
+            position: absolute;
+            top: 112px;
+            left: 0px;
+            width: 242px;
+            height: 16px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+        
+        .starbox{
+            position: absolute;
+            width: 86px;
+            height: 14px;
+            top: 1px;
+            bottom: 1px;
+            left:0px;
+        }
+        
+        .s1{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 0px;
+            bottom: 0px;
+        }
+        
+        .s2{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            bottom: 0px;
+            left: 18px;
+        }
+        
+        .s3{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 36px;
+        }
+        
+        .s4{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 54px;
+        }
+        
+        .s5{
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 72px;
+        }
+        
+        .nostars{
+            position: absolute;
+            top: 0px;
+            left: 90px;
+            color: #FF6600;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            width: 17px;
+            height: 16px;
+        }
+        
+        .reviews{
+            position: absolute;
+            top: 0px;
+            left: 111px;
+            width: 54px;
+            height: 16px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+        }
+        
+        .buyers{
+            position: absolute;
+            width: 53px;
+            height: 16px;
+            color: #333333;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+            left: 189px;
+        }
+        
+        .pricebox{
+            position: absolute;
+            top: 140px;
+            left: 0px;
+            background-color: rgba(255, 255, 255, 0);
+            box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+            width: 336px;
+            height: 64px;
+            background-color: #FFFFFF;
+          
+        }
+        
+        .RtoR{
+            position: absolute;
+            width: 135px;
+            height: 24px;
+            top: 12px;
+            left: 0px;
+            color: #FF6600;
+            font-family: Roboto-Bold;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            
+        }
+        
+        .option{
+            position: absolute;
+            width: 54px;
+            height: 16px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+            top: 16px;
+            left: 135px;
+        }
+        
+        .option2{
+            position: absolute;
+            width: 64px;
+            height: 16px;
+            top: 16px;
+            left: 200px;
+            color: #333333;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+        }
+        
+        .minorder{
+            position: absolute;
+            width: 72px;
+            height: 16px;
+            top: 16px;
+            left: 264px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+          }
+        
+          .oldprice{
+            position: absolute;
+            width: 124px;
+            height: 16px;
+            top: 36px;
+            left: 0px;
+            color: #999999;
+            font-family: Roboto-Regular;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+            text-decoration: line-through;
+            }
+        
+            .marchbox{ 
+                position: absolute;
+                width: 336px;
+                height: 40px;
+                top: 216px;
+                left: 0px;
+                background-color: rgba(255, 255, 255, 0);
+                background-color: #FFF0E6;
+                
+                
+            } 
+        
+            .marchicon{
+                position: absolute;
+                width: 76px;
+                height: 40px;
+                left: 0px;
+                top: 0px;
+            }
+       
+            .freeship{
+                position: absolute;
+                width: 167px;
+                height: 16px;
+                top: 12px;
+                left: 100px;
+                color: #FF6600;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .arrow1{
+                position: absolute;
+                width: 8px;
+                height: 14px;
+                top: 13px;
+                left: 312px;
+            }
+        
+            .discountbox{
+                position: absolute;
+                width: 328px;
+                height: 24px;
+                top: 280px;
+                left: 0px;
+            }
+        
+            .off{
+                position: absolute;
+                width: 59px;
+                height: 16px;
+                top: 4px;
+                left: 0px;
+                color: #FF6600;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .discount{
+                position: absolute;
+                width: 104px;
+                height: 16px;
+                top: 4px;
+                left: 59px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .clock{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                left: 187px;
+                top: 4px;
+            }
+        
+            .Time{
+                position: absolute;
+                width: 113px;
+                height: 24px;
+                top: 0px;
+                left: 215px;
+                color: #999999;
+                font-family: Roboto-Italic;
+                font-weight: italic;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: left;
+            }
+        
+            .optionsbox{
+                position: absolute;
+                width: 360px;
+                height: 144px;
+                left: 0px;
+                top: 328px;
+            }
+        
+            .optionsbox1{
+                position: absolute;
+                width: 336px;
+                height: 40px;
+                top: 0px;
+                left: 12px;
+            }
+        
+            .HD{
+                position: absolute;
+                width: 148px;
+                height: 16px;
+                top: 12px;
+                left: 0px;
+                color: #333333;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .hdprice{
+                position: absolute;
+                width: 56px;
+                height: 16px;
+                top: 12px;
+                left: 148px;
+                color: #333333;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .minusbtn1{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 216px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #E6E7EB;
+                border-radius: 2px 0 0 2px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+                display: flex; 
+                transition: .3s;
+            }
+        
+            .minusbtn1:hover{
+                background-color: #E6E7EB;
+                opacity: 1;
+            }
+        
+            .minusimg{
+                position: absolute;
+                width: 14px;
+                height: 2px;
+                top: 19px;
+                left: 13px;
+            }
+        
+            .counterbox1{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 256px;
+                background-color: rgba(255, 255, 255, 0);
+                box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+                background-color: #FFFFFF;
+            }
+        
+            .counter1{
+                position: absolute;
+                width: 40px;
+                height: 16px;
+                top: 12px;
+                left: 0px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                border: none;
+            }
+        
+            .plusbtn1{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 296px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #FF6600;
+                border-radius: 0 2px 2px 0;
+                background-color: #FFFFFF;
+                border-radius: 0 2px 2px 0;
+                cursor: pointer;
+                display: flex; 
+                transition: .3s;
+            }
+        
+            .plusbtn1:hover{
+                background-color: #ff6600a1;
+                opacity: 1;
+                
+            }
+        
+            .plusimg{
+                position: absolute;
+                height: 14px;
+                width: 14px;
+                top: 13px;
+                left: 13px;
+            }
+        
+            .optionbox2{
+                position: absolute;
+                width: 336px;
+                height: 40px;
+                top: 52px;
+                left: 0px;
+            }
+        
+            .UHD{
+                position: absolute;
+                width: 148px;
+                height: 16px;
+                top: 12px;
+                left: 0px;
+                color: #333333;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .uhdprice{
+                position: absolute;
+                width: 56px;
+                height: 16px;
+                top: 12px;
+                left: 148px;
+                color: #333333;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .minusbtn2{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 216px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #E6E7EB;
+                border-radius: 2px 0 0 2px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+                display: flex; 
+                transition: .3s;
+            }
+        
+            .minusbtn2:hover{
+                background-color: #E6E7EB;
+                opacity: 1;
+            }
+        
+            .counterbox2{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 256px;
+                background-color: rgba(255, 255, 255, 0);
+                box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+                background-color: #FFFFFF;
+            }
+        
+            .counter2{
+                position: absolute;
+                width: 40px;
+                height: 16px;
+                top: 12px;
+                left: 0px;
+                bottom: 12px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                border: none;
+            }
+        
+            .plusbtn2{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 296px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #FF6600;
+                border-radius: 0 2px 2px 0;
+                background-color: #FFFFFF;
+                border-radius: 0 2px 2px 0;
+                cursor: pointer;
+                display: flex; 
+                transition: .3s;
+            }
+        
+            .plusbtn2:hover{
+                background-color: #ff6600a1;
+                opacity: 1;
+                
+            }
+        
+            .plusimg{
+                position: absolute;
+                height: 14px;
+                width: 14px;
+                top: 13px;
+                left: 13px;
+            }
+        
+            .optionbox3{
+                position: absolute;
+                width: 336px;
+                height: 40px;
+                top: 104px;
+                left: 0px;
+            }
+        
+            .battery{
+                position: absolute;
+                width: 148px;
+                height: 16px;
+                top: 12px;
+                left: 0px;
+                color: #333333;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .batprice{
+                position: absolute;
+                width: 48px;
+                height: 16px;
+                top: 12px;
+                left: 148px;
+                color: #333333;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .minusbtn3{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 216px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #E6E7EB;
+                border-radius: 2px 0 0 2px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+                display: flex; 
+                transition: .3s;
+            }
+        
+            .minusbtn3:hover{
+                background-color: #E6E7EB;
+                opacity: 1;
+            }
+        
+            .counterbox3{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 256px;
+                background-color: rgba(255, 255, 255, 0);
+                box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+                background-color: #FFFFFF;
+            }
+        
+            .counter3{
+                position: absolute;
+                width: 40px;
+                height: 16px;
+                top: 12px;
+                left: 0px;
+                bottom: 12px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                border: none;
+            }
+        
+            .plusbtn3{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+                left: 296px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #FF6600;
+                border-radius: 0 2px 2px 0;
+                background-color: #FFFFFF;
+                border-radius: 0 2px 2px 0;
+                cursor: pointer;
+                display: flex; 
+                transition: .3s;
+            }
+        
+            .plusbtn3:hover{
+                background-color: #ff6600a1;
+                opacity: 1;
+            }
+        
+            .plusimg{
+                position: absolute;
+                height: 14px;
+                width: 14px;
+                top: 13px;
+                left: 13px;
+            }
+        
+            .secureimg{
+                position: absolute;
+                width: 12px;
+                height: 14px;
+                left: 1px;
+                top: 497px;
+            }
+        
+            .trade{
+                position: absolute;
+                width: 107px;
+                height: 16px;
+                top: 496px;
+                left: 18px;
+                color: #999999;
+                font-family: Roboto-Bold;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .protects{
+                position: absolute;
+                width: 181px;
+                height: 16px;
+                top: 496px;
+                left: 125px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .payments{
+                position: absolute;
+                width: 60px;
+                height: 16px;
+                top: 524px;
+                left: 0px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .visa{
+                position: absolute;
+                width: 17px;
+                height: 12px;
+                top: 526px;
+                left: 60px;
+            }
+        
+            .mastercard{
+                position: absolute;
+                width: 17px;
+                height: 12px;
+                top: 526px;
+                left: 81px;
+            }
+        
+            .applepay{
+                position: absolute;
+                width: 28px;
+                height: 12px;
+                top: 526px;
+                left: 102px;
+            }
+        
+            .Alibaba{
+                position: absolute;
+                width: 119px;
+                height: 16px;
+                top: 552px;
+                left: 0px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+            .inspect{
+                position: absolute;
+                width: 109px;
+                height: 16px;
+                top: 552px;
+                left: 143px;
+                color: #999999;
+                font-family: Roboto-Regular;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                text-align: left;
+            }
+        
+    
+    }

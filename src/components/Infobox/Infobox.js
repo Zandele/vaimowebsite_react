@@ -13,6 +13,8 @@ import visa from '../../assets/icons/visa.svg';
 import mastercard from '../../assets/icons/mastercard.svg';
 import applepay from '../../assets/icons/applepay.svg';
 import { switchClasses } from '@mui/material';
+import { MContext } from '../ContextObject/contextObject';
+import Context from '@mui/base/TabsUnstyled/TabsContext';
 
 
 function Infobox(apidata) {
@@ -55,28 +57,40 @@ function Infobox(apidata) {
   }, [x]);
 
 
-
-
-
-
-
-
-
 // Qty rockers
   const [quantity1, setQuantity1] = useState(0);
 
   const handleDecrement1 = () => {
     if(quantity1 > 0){
       setQuantity1(prevCount => prevCount - 1);
-  
+      
     }
   }
   const handleIncrement1 = () => {
     if(quantity1 < 10){
       setQuantity1(prevCount => prevCount + 1);
+      calculateFinal(quantity1, 833.99)
     }
   }
   
+const [final, setFinal] = useState([0]);
+
+  const calculateFinal = (val, amount) => {
+    setFinal(final[0] + val*amount);
+  }
+
+
+useEffect (()=> <MContext.Consumer>
+ {(context) => (context.setValue(final))}
+</MContext.Consumer>, [final])
+
+
+
+
+
+
+
+
   const [quantity2, setQuantity2] = useState (0);
 
   const handleDecrement2 = () => {
@@ -88,8 +102,16 @@ function Infobox(apidata) {
   const handleIncrement2 = () => {
     if(quantity2 < 10){
       setQuantity2(prevCount => prevCount + 1);
+      calculateFinal(quantity2, 895.31)
     }
   }
+
+
+
+
+
+
+
 
   const [quantity3, setQuantity3] = useState (0);
 
@@ -102,26 +124,9 @@ function Infobox(apidata) {
   const handleIncrement3 = () => {
     if(quantity3 < 10){
       setQuantity3(prevCount => prevCount + 1);
+      calculateFinal(quantity3, 78.50)
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

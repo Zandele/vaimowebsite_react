@@ -5,6 +5,7 @@ import Infobox from '../src/components/Infobox/Infobox';
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
 import Surface from '../src/components/Surface/Surface';
+import contextObject from '../src/components/ContextObject/contextObject';
 
 
 
@@ -41,6 +42,8 @@ useEffect(() => {
 
   return (
     <div className="App" >
+      <meta name='viewport' content='width=device-width, initail-scale=1.0'></meta>
+      <contextObject>
       
         <Grid container spacing={2.4} className='grid'>
 
@@ -57,7 +60,8 @@ useEffect(() => {
           </Grid>
             
         </Grid>
-        
+      </contextObject>
+      
     </div>  
     
   );
